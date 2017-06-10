@@ -25,7 +25,7 @@ public class BeaconHandler {
 
     public void connect() {
 
-        final List<Beacon> beacons = beaconService.getBeacons().getBeacons();
+        final List<Beacon> beacons = beaconService.getBeacons();
 
         beaconManager.connect(new BeaconManager.ServiceReadyCallback(){
 
